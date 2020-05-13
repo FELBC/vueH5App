@@ -1,4 +1,10 @@
-# vue-h5-app
+# vue-h5-app 一款基于vue全家桶的移动端app
+
+## 效果演示
+
+<a href="https://felbc.github.io/vueH5App/" target="_blank">
+  查看效果请戳这里
+</a>
 
 ## Project setup
 ```
