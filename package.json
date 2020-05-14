@@ -2,7 +2,7 @@
   "name": "vue-h5-app",
   "version": "0.1.0",
   "author": "lbc",
-  "homepage": "https://felbc.github.io/vueH5App/",
+  "homepage": "https://felbc.github.io/vueH5App/#/",
   "description": "基于vue全家桶的移动端app",
   "private": true,
   "scripts": {
@@ -13,7 +13,10 @@
   "dependencies": {
     "axios": "^0.19.2",
     "core-js": "^3.6.4",
+    "fastclick": "^1.0.6",
     "mockjs": "^1.1.0",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
     "swiper": "^5.3.8",
     "vue": "^2.6.11",
     "vue-awesome-swiper": "^4.1.1",
