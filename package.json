@@ -1,6 +1,9 @@
 {
   "name": "vue-h5-app",
   "version": "0.1.0",
+  "author": "lbc",
+  "homepage": "https://felbc.github.io/vueH5App/",
+  "description": "基于vue全家桶的移动端app",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -8,8 +11,15 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "core-js": "^3.6.4",
-    "vue": "^2.6.11"
+    "mockjs": "^1.1.0",
+    "swiper": "^5.3.8",
+    "vue": "^2.6.11",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-axios": "^2.1.5",
+    "vue-router": "^3.1.6",
+    "vuex": "^3.4.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.3.0",
