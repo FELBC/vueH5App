@@ -40,12 +40,12 @@ export default {
 <style lang="stylus" scoped>
   .wrapper >>> .swiper-pagination-bullet-active // >>> 样式穿透，使不受scoped限制
     background: #fff
-    .wrapper
-      overflow:hidden
+  .wrapper
+    overflow:hidden
+    width:100%
+    height:0
+    padding-bottom:31.25% //撑开图片高度防止抖动
+    background:#eee
+    .swiper-img
       width:100%
-      height:0
-      padding-bottom:31.25% //撑开图片高度防止抖动
-      background:#eee
-      .swiper-img
-        width:100%
 </style>
