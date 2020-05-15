@@ -33,3 +33,5 @@
 ## 9.chrome调试技巧，Sources => ⋮ => Open file(ctrl+p) => 搜索源文件 => 打断点调试(这个有点类似去服务端打断点联调了，能看到数据的每一步状态，对定位程序问题很有帮助)
 
 ## 10.iconfont引入到项目的时候记得将iconfont.eot,iconfont.svg,iconfont.ttf,iconfont.woff,iconfont.woff2全部加入到assets/style/iconfont文件夹下，然后修改iconfont.css @font-face,缺少文件会导出图标显示小方块问题
+
+## 11.stylus样式书写不需要{}包裹，注意缩进，缩进不对会导致样式应用出错
