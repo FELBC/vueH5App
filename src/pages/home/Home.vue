@@ -35,11 +35,13 @@ export default {
   methods: {
     getHomeInfo(){
       axios.get('/api/index').then(res=>{
-        let {iconList,recommendList,swiperList,weekendList} = res.data.data;
-        this.swiperList = swiperList;
-        this.iconList = iconList;
-        this.recommendList = recommendList;
-        this.weekendList = weekendList;
+        if(res.data.ret && res.data.data){
+          let {iconList,recommendList,swiperList,weekendList} = res.data.data;
+          this.swiperList = swiperList;
+          this.iconList = iconList;
+          this.recommendList = recommendList;
+          this.weekendList = weekendList;
+        }
       });
     }
   },
