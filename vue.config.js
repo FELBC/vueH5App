@@ -19,12 +19,13 @@ module.exports = {
         }
     }
   },
+  // 代替fiddler, charles等抓包代理工具
   devServer:{
     host:'localhost',
     port:8080,
     proxy:{
       '/api':{
-        target:'http://localhost', // 线上接口地址
+        target:'http://localhost:8080', // 内网后台服务ip地址 || 线上域名地址
         changeOrigin:true,
         pathRewrite:{
           '^/api':''
