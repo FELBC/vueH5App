@@ -4,6 +4,7 @@ import router from './router'
 import axios from 'axios'
 import VueAxios from 'vue-axios' // 将作用域对象挂载到vue实例上，方便用this调用
 import fastClick from 'fastclick' // 解决移动端(某些机型，某些浏览器上)300毫秒点击延迟问题
+import 'babel-polyfill' // 允许所有浏览器支持Promise，fix部分手机展示白屏问题
 import store from './store'
 import 'swiper/css/swiper.css'
 // import './assets/styles/reset.css'

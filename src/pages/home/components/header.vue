@@ -2,7 +2,7 @@
   <div class="header">
     <div class="header-left">
       <!-- <span class="iconfont">&#xe624;</span> -->
-      <div class="iconfont iconfanhui back-icon"></div>
+      <div class="iconfont iconshouye back-icon"></div>
     </div>
     <div class="header-input">
       <span class="iconfont iconsousuo"></span>
